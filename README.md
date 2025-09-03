@@ -42,14 +42,14 @@ To run the project, first install the dependencies:
 Then, start the FastAPI app:
 
 ```cd app
-uvicorn main:app --reload
+python -m uvicorn iris_api:app --reload
 ```
 
 The API documentation can be accessed at http://localhost:8000/docs.
 
 Finally, start the Streamlit app:
 
-```streamlit run streamlit_app/main.py```
+```python -m streamlit run streamlit_app/main.py```
 
 
 The web interface can be accessed at http://localhost:8501.
