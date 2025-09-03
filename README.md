@@ -37,7 +37,9 @@ The project has the following structure:
 
 To run the project, first install the dependencies:
 
-```pip install -r requirements.txt```
+```cd app
+pip install -r requirements.txt
+```
 
 Then, start the FastAPI app:
 
@@ -49,7 +51,9 @@ The API documentation can be accessed at http://localhost:8000/docs.
 
 Finally, start the Streamlit app:
 
-```python -m streamlit run streamlit_app/main.py```
+```cd app
+python -m streamlit run streamlit_app/main.py
+```
 
 
 The web interface can be accessed at http://localhost:8501.
